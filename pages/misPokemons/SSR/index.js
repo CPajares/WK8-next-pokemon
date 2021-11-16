@@ -1,5 +1,4 @@
 const SSR = ({ pokemons }) => {
-  console.log(pokemons);
   return (
     <>
       <h2>SSR</h2>
