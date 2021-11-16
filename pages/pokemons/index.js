@@ -14,7 +14,7 @@ const Pokemon = () => {
   }, []);
   return (
     <>
-      <h2>POKEMONS</h2>
+      <h2>POKEMONS CSR</h2>
 
       <ul>
         {pokemons.map((pokemon) => (
