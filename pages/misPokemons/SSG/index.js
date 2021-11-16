@@ -1,5 +1,9 @@
 const SSG = () => {
-  return <h2>SSG</h2>;
+  return (
+    <>
+      <h2>under construction</h2>
+    </>
+  );
 };
 
 export default SSG;

@@ -1,12 +1,14 @@
+import Link from "next/link";
+
 const PokemonISR = ({ pokemons }) => {
   return (
     <>
       <h2>PokemonISR</h2>
-      <ul>
-        {pokemons.map((pokemon) => (
-          <li key={pokemon.id}>{pokemon.name}</li>
-        ))}
-      </ul>
+      {pokemons.map((pokemon) => (
+        <Link key={pokemon.id} href={`/misPokemons/ISR/${pokemon.id}`}>
+          <p key={pokemon.id}>{pokemon.name}</p>
+        </Link>
+      ))}
     </>
   );
 };
